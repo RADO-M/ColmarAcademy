@@ -7,8 +7,20 @@ html{
 }
 
 body{
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Muli', 'Arial', sans-serif;
+  color: rgb(74,74,74)
 }
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  top: 64px;
+  width: auto;
+}
+
 
 
 /* header */
@@ -18,8 +30,11 @@ header{
   justify-content: space-between;
   align-items: center;
   height: 64px;
-  color: black;
-  background-color: #C4BEBE;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  box-shadow: 0px 2px 5px 0px grey;
 }
 
 section{
@@ -31,10 +46,12 @@ section{
   text-transform: uppercase;
   font-size: 1.2rem;
   font-family: Arial;
+  color: rgb(155,155,155)
 }
 
 section h1{
    font-weight: bold;
+   color: rgb(74,74,74)
 }
 
 nav{
@@ -42,7 +59,213 @@ nav{
 }
 
 nav span a{
-  color: black;
+  color: rgb(74,74,74);
   margin-left: 16px;
   text-decoration-line: none;
+}
+
+/* Middle-section-1 */
+
+.first{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(216,216,216);
+}
+
+.first img{
+  width: 57.8%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0;
+  width: auto;
+  margin-left: 24px;
+}
+
+.article h3{
+  font-weight: 800;
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.article p{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.article span{
+  display: inline-block;
+  padding: 15px 0;
+  background-color: rgb(74,74,74);
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+/* Middle-section-2 */
+
+.second{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0;
+}
+
+.second h4{
+  font-weight: bold;
+}
+
+.one, .two{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.one{
+  margin: 32px 32px 32px 24px;
+  width: 60%;
+}
+
+.one img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.one h4{
+  font-size: 2rem;
+  font-family: 'Open Sans';
+  margin-bottom: 24px;
+}
+
+.one h5{
+  font-size: 1rem;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.one p{
+  font-weight: 600;
+}
+
+.two{
+  width: 40%;
+  border-left: 1px solid rgb(216,216,216);
+}
+
+.two img{
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.guest img{
+  width: 57%;
+  height: auto;
+}
+
+.date,.campus,.guest{
+  display: flex;
+  border-bottom: 1px solid rgb(216,216,216);
+}
+
+.date{
+  margin-top: 16px;
+}
+
+.guest{
+  margin-bottom: 16px;
+  background-color: rgb(216,216,216);
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto 0;
+}
+
+.text h4 , .text h5{
+  margin-bottom: 8px;
+}
+
+.text p{
+  color: rgb(74,144,226);
+}
+
+.text h4{
+  font-size: 1.2rem;
+}
+
+/* Middle-section-3 */
+
+.third{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgb(234,235,236);
+}
+
+.third h1{
+  font-weight: bold;
+  font-size: 2rem;
+  display: inline-block;
+  margin: 32px auto;
+}
+
+.multi{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 0 72px 32px 72px;
+}
+
+.multi img{
+  height: auto;
+  width: 100%;
+}
+
+.multi h2{
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 16px 0 8px 16px;
+}
+
+.multi h3{
+  display: inline-block;
+  margin: 0 0 8px 16px;
+}
+
+.multi p{
+  display: inline-block;
+  width: 70%;
+  line-height: 1.2;
+  font-size: 1rem;
+  margin: 0 0 24px 16px;
+}
+
+.soft , .art, .design,
+.data, .busy, .market{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 32%;
+  height: auto;
+  background-color: white;
+}
+
+.soft, .art, .design{
+  margin-bottom: 32px;
 }
