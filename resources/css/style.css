@@ -112,6 +112,11 @@ nav span a{
   text-align: center;
 }
 
+.article span a{
+  text-decoration-line: none;
+  color: inherit;
+}
+
 /* Middle-section-2 */
 
 .second{
@@ -152,10 +157,12 @@ nav span a{
   font-size: 1rem;
   margin-bottom: 50px;
   line-height: 1.5;
+  color: rgb(118,118,118);
 }
 
 .one p{
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .two{
@@ -193,6 +200,10 @@ nav span a{
   flex-direction: column;
   justify-content: flex-start;
   margin: auto 0;
+}
+
+.text h5{
+  color: rgb(118,118,118);
 }
 
 .text h4 , .text h5{
@@ -254,6 +265,7 @@ nav span a{
   line-height: 1.2;
   font-size: 1rem;
   margin: 0 0 24px 16px;
+  color: rgb(118,118,118);
 }
 
 .soft , .art, .design,
@@ -268,4 +280,107 @@ nav span a{
 
 .soft, .art, .design{
   margin-bottom: 32px;
+}
+
+/* Middle-section-4 */
+
+.last{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.last h1{
+  font-weight: bold;
+  font-size: 2rem;
+  display: inline-block;
+  margin: 32px auto;
+}
+
+.content{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.media, .info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  margin-left: 24px;
+}
+
+.media{
+  width: 60%;
+}
+
+.media video{
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.media h4{
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+  margin-bottom: 14px;
+}
+
+.media h5{
+  font-size: 1rem;
+  margin-bottom: 50px;
+  line-height: 1.4;
+  color: rgb(118,118,118);
+}
+
+.info{
+  width: 40%;
+}
+
+.info h4{
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info img{
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.fisma, .now{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fisma{
+  background-color: rgb(216,216,216);
+}
+
+.now img{
+  width: 34%;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 24px;
+  font-size: 0.9rem;
+  border-top: 1px solid rgb(216,216,216);
+  margin-bottom: 32px;
+}
+
+footer ul{
+  display: flex;
+}
+
+footer li a{
+  margin-left: 16px;
+  text-decoration-line: none;
+  color: rgb(74,74,74);
 }
