@@ -1,0 +1,10 @@
+Hi , guys ! 
+I did some changes to the project by myself , which I think
+will not affect the final "red line sheet" .
+Most of the requirements are done in order , just some measurements in 
+some of the elements were changed as well as a little shadow effect 
+on the nav bar .
+I hope you are going to enjoy the slightly different vision of the page
+at all.
+
+Regards : Rado.
