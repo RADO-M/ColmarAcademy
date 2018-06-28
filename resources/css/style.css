@@ -76,6 +76,16 @@ nav span a{
   color: rgb(74,74,74);
   margin-left: 16px;
   text-decoration-line: none;
+  transition: all 0.1s linear;
+}
+
+nav span a:hover{
+  color: rgb(74,144,226);
+}
+
+nav span a:active{
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  color: rgb(74,144,240);
 }
 
 @media only screen and (max-width: 480px){
@@ -140,6 +150,12 @@ nav span a{
   color: white;
   font-weight: 700;
   text-align: center;
+}
+
+.article span:active{
+  position: relative;
+  top: 2.5px;
+  right: 2.5px;
 }
 
 .article span a{
@@ -274,6 +290,11 @@ nav span a{
   font-size: 1.2rem;
 }
 
+.text p a{
+  text-decoration-line: none;
+  color: inherit;
+}
+
 @media only screen and (max-width: 480px){
 
    .second{
@@ -347,6 +368,11 @@ nav span a{
 .multi img{
   height: auto;
   width: 100%;
+  transition: all 0.2s ease-in-out 0.4s;
+}
+
+.multi img:hover{
+  transform: scale(1.1);
 }
 
 .multi h2{
@@ -543,6 +569,11 @@ footer li a{
   margin-left: 16px;
   text-decoration-line: none;
   color: rgb(74,74,74);
+  transition: color 0.2s linear;
+}
+
+footer li a:hover{
+  color: rgb(74,144,226);
 }
 
 @media only screen and (max-width: 480px){
